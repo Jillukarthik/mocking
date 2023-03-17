@@ -10,7 +10,7 @@ export const handlers = [
         },
         {
           name: 'Clark Kent',
-        },
+        }, 
         {
           name: 'Princess Diana',
         },

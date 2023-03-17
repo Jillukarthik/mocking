@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-
+import "./Data.css"
 function Data() {
   const [set, setdata] = useState([]);
   const [error, seterror] = useState("");
@@ -12,8 +12,8 @@ function Data() {
   console.log(set, "data");
   console.log(error,"fghjkl")
   return (
-    <div>
-        <h1>{error }</h1>
+    <div className="data">
+        <h1>{error && "error"}</h1>
         <ul>
       {set.map((x) => (
         <li key={x.id}>
